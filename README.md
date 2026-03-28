@@ -2,7 +2,6 @@
 
 PyTorch project that trains a **surrogate image encoder** to mimic a **black-box victim model** that returns **1024-dimensional embeddings**, in the presence of a **perturbation-based defense** (B4B-style noise on API outputs). The pipeline covers **batched API querying**, **defense-aware supervised training**, **Optuna hyperparameter search**, and **ONNX export** for evaluation or deployment.
 
-This repository is suitable as a **portfolio** piece in ML security / trustworthy ML: it shows end-to-end handling of a constrained black-box setting, noisy supervision, and practical tooling (HTTP API, pickles, notebooks).
 
 ## Suggested GitHub repository name
 
