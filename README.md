@@ -63,23 +63,23 @@ Place the public tensor dataset (e.g. `ModelStealingPub.pt`) where `PUBLIC_DATAS
    ```
 
 2. **Train** — open `train_surrogate_encoder.ipynb`, set environment variables (or use your IDE’s env loader), run all cells. Uncomment `submit_model()` in the notebook if you submit ONNX to a grading server.
-
+<!-- 
 ## Files you should **not** commit (kept out via `.gitignore`)
 
 - **`.env`** — real tokens and seeds.
 - **`*.pt` / `*.onnx` / `*.pickle`** — large binaries; use releases or external storage if you want to share artifacts.
 - **`ModelStealingPub.pt`** — dataset file.
-- **`.ipynb_checkpoints/`** — local Jupyter cruft.
+- **`.ipynb_checkpoints/`** — local Jupyter cruft. -->
 
-## Security note
+<!-- ## Security note
 
-Never push **API tokens**, **seeds**, or **private hostnames** that grant access to live infrastructure. This portfolio version reads secrets from the environment and lists only placeholders in `.env.example`.
+Never push **API tokens**, **seeds**, or **private hostnames** that grant access to live infrastructure. This portfolio version reads secrets from the environment and lists only placeholders in `.env.example`. -->
 
 ## References (techniques cited in the original write-up)
 
 - Contrastive / representation ideas: [CVPR 2023 paper](https://yangzhangalmo.github.io/papers/CVPR23.pdf) (MoCo-style inspiration in early experiments).
 - BESA / perturbation recovery: [arXiv:2506.04556](https://arxiv.org/pdf/2506.04556).
 
-## License
+<!-- ## License
 
-Add a `LICENSE` file if you want explicit terms (e.g. MIT). Course-specific submission links are omitted here; keep those in private notes if needed.
+Add a `LICENSE` file if you want explicit terms (e.g. MIT). Course-specific submission links are omitted here; keep those in private notes if needed. -->
